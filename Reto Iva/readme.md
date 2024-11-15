@@ -1,7 +1,19 @@
 # **Pruebas del programa del IVA:**
+
+## -----------
+
+### COMO:
+Un Usuario de la pagina web.
+### QUIERO:
+Un programa que calcule el IVA del precio base de un producto.
+### PARA QUE:
+Para no tener que realizar el calculo manualmente y así evitar posibles errores y aumentar la velocidad del calculo.
+
+## -----------
 Las pruebas consisten en la prueba del programa python diseñado para calcular el IVA  
 La prueba de calcular el IVA se ejecuta poniendo el precio neto de la transaccion y el % de IVA  
 La prueba de substraer el IVA en cambio se ejecuta dando un precio bruto y un % de IVA calculando el precio neto del producto
+
 
 | Tipo de prueba | Nº Prueba | Usuario | Precio Base (€) | % de Iva | Precio Total (€) | IVA total (€) |
 |----------|----------|----------|----------|----------|----------|----------|
