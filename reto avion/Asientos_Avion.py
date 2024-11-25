@@ -105,6 +105,7 @@ def cambiar_usuario():
 # Main
 
 if __name__ == "__main__":    
+    eleccion = 1
     nombre = input("Introduce tu nombre de usuario: ")
     while eleccion != 0:
         eleccion = int(input("¿Qué operación deseas realizar?\n1- Ver todos los asientos.\n2- Reservar asientos\n3- Cancelar reserva\n4- Cambiar de Usuario\n0- Apagar programa\n"))
