@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='dashboard.css') }}">
+</head>
+<body>
+    <div class="dashboard-container">        
+        <div class="user-details">
+            <p><strong>Nombre:</strong> {{ user['first_name'] }} {{ user['last_name'] }} <strong>Correo:</strong> {{ user['email'] }} <strong>Teléfono:</strong> {{ user['phone'] }}</p>
+        </div>
+        <div class="random-image">
+            <img src="https://picsum.photos/1000/450" alt="Imagen Aleatoria">
+        </div>
+    </div>
+</body>
+</html>
